@@ -1,0 +1,49 @@
+# ----- ENVIRONNEMENT PYTHON -----
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+
+# ----- ODOO CORE / BUILD / CACHES -----
+.cache/
+.local/
+.odoo/
+*.db
+*.sqlite
+*.db-shm
+*.db-wal
+
+# Folders created by Odoo
+odoo/.local/
+odoo/addons/*/__pycache__/
+
+# ----- MODULES ODOO -----
+*/static/.*
+*/static/lib/
+*/static/description/*.png
+*/modules/.cache/
+
+# ----- TOR / SECURITY -----
+tor/
+*.onion
+*.log
+*.pid
+
+# Ne jamais exposer les logs Odoo sur un repo public
+logs/
+*.log
+
+# ----- FILestore (NE JAMAIS METTRE DANS GITHUB) -----
+filestore/
+odoo/filestore/
+*/filestore/
+
+# ----- SYSTEM FILES -----
+.DS_Store
+Thumbs.db
+
+# ----- VSCODE / IDE -----
+.vscode/
+.idea/
+*.swp
