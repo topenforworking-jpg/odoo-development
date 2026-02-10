@@ -7,7 +7,7 @@ __pycache__/
 
 # ----- ODOO CORE / BUILD / CACHES -----
 .cache/
-# .local/
+.local/
 .odoo/
 *.db
 *.sqlite
@@ -15,7 +15,7 @@ __pycache__/
 *.db-wal
 
 # Folders created by Odoo
-# odoo/.local/
+odoo/.local/
 odoo/addons/*/__pycache__/
 
 # ----- MODULES ODOO -----
@@ -35,9 +35,9 @@ logs/
 *.log
 
 # ----- FILestore (NE JAMAIS METTRE DANS GITHUB) -----
-# filestore/
-# odoo/filestore/
-# */filestore/
+ filestore/
+ odoo/filestore/
+ */filestore/
 
 # ----- SYSTEM FILES -----
 .DS_Store
